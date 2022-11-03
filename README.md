@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview 
-The Alphabet Soup’s business team has provided a CSV file containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
+The Alphabet Soup’s business team has provided a [CSV](https://raw.githubusercontent.com/lkachury/Neural_Network_Charity_Analysis/main/charity_data.csv) file containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as the following:
 
 - **EIN** and **NAME**—Identification columns
 - **APPLICATION**_TYPE—Alphabet Soup application type
@@ -25,7 +25,7 @@ The features in the provided dataset will be used to help create a binary classi
 - [TensorFlow](https://playground.tensorflow.org/#activation=sigmoid&batchSize=10&dataset=gauss&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=1&seed=0.10587&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false&discretize_hide=true&regularization_hide=true&learningRate_hide=true&regularizationRate_hide=true&percTrainData_hide=true&showTestData_hide=true&noise_hide=true&batchSize_hide=true) Neural Network
 
 ### Data Source 
-- Alphabet Soup Charity [charity_data]() csv file
+- Alphabet Soup Charity [charity_data](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/charity_data.csv) csv file
 
 ## Results
 ### Deliverable 1: Preprocessing Data for a Neural Network Model
