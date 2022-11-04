@@ -29,7 +29,7 @@ The features in the provided dataset will be used to help create a binary classi
 
 ## Results
 ### Deliverable 1: Preprocessing Data for a Neural Network Model
-Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. 
+Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here]().
 
 The following preprocessing steps have been performed:
 1. The `EIN` and `NAME` columns have been dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/200087693-28fecd68-aaff-475d-a557-d52f966d6ff5.png)
