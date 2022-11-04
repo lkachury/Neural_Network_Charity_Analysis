@@ -32,18 +32,17 @@ The features in the provided dataset will be used to help create a binary classi
 Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. 
 
 The following preprocessing steps have been performed:
-1. The `EIN` and `NAME` columns have been dropped:
+1. The `EIN` and `NAME` columns have been dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/200087693-28fecd68-aaff-475d-a557-d52f966d6ff5.png)
 
-2. The columns with more than 10 unique values have been grouped together:
+2. The columns with more than 10 unique values have been grouped together: <br /> ![image](https://user-images.githubusercontent.com/108038989/200087841-3ea68e50-949b-47d1-8dff-296ae84f1e94.png)
 
-3. The categorical variables have been encoded using one-hot encoding:
+3. The categorical variables have been encoded using one-hot encoding: <br /> ![image](https://user-images.githubusercontent.com/108038989/200087907-aec3f0bc-27a3-4ed7-b732-2c87f0521f11.png)
 
-4. The preprocessed data is split into features and target arrays:
+4. The preprocessed data is split into features and target arrays: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088021-75e8fc4e-5ec5-4199-979f-98f830dd0c90.png)
 
-5. The preprocessed data is split into training and testing datasets:
+5. The preprocessed data is split into training and testing datasets: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088050-2c9fd59e-aea6-4b88-97a2-37ad56cbad51.png)
 
-6. The numerical values have been standardized using the `StandardScaler()` module:
-
+6. The numerical values have been standardized using the `StandardScaler()` module: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088084-64e82cd0-6f93-4d59-832a-294e8641051d.png)
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model 
 Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
