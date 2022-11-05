@@ -48,11 +48,11 @@ The following preprocessing steps have been performed:
 Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
-1. The number of layers, the number of neurons per layer, and activation function are defined:  
+1. The number of layers, the number of neurons per layer, and activation function are defined: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126533-f9bc7393-83a3-4584-825e-8aec465a0eca.png)  
 
-2. An output layer with an activation function is created:
+2. An output layer with an activation function is created: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126549-8897706e-5d02-477a-8d28-07a517a33ad4.png)
 
-3. There is an output for the structure of the model: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126180-b7c8a23f-18b9-4c27-9d29-4427c5cfe545.png)
+3. There is an output for the structure of the model: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126575-bf8c5345-3dc1-446b-a710-ea5f15020b80.png)
 
 4. There is an output of the model’s loss and accuracy: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126344-8dd635e5-443b-439e-bd3a-4a6c80095504.png)
 
