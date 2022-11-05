@@ -48,17 +48,17 @@ The following preprocessing steps have been performed:
 Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
-1. The number of layers, the number of neurons per layer, and activation function are defined:
+1. The number of layers, the number of neurons per layer, and activation function are defined:  
 
 2. An output layer with an activation function is created:
 
-3. There is an output for the structure of the model:
+3. There is an output for the structure of the model: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126180-b7c8a23f-18b9-4c27-9d29-4427c5cfe545.png)
 
-4. There is an output of the model’s loss and accuracy:
+4. There is an output of the model’s loss and accuracy: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126344-8dd635e5-443b-439e-bd3a-4a6c80095504.png)
 
-5. The model's weights are saved every 5 epochs:
+5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126369-c272585e-cfec-4d08-affa-67dde424c6be.png)
 
-6. The results are saved to an HDF5 file:
+6. The results are saved to an [HDF5]() file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
 
 ### Deliverable 3: Optimize the Model 
 Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so.
