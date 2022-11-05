@@ -54,9 +54,9 @@ The neural network model using Tensorflow Keras contains working code that perfo
 
 3. There is an output for the structure of the model: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126575-bf8c5345-3dc1-446b-a710-ea5f15020b80.png)
 
-4. There is an output of the model’s loss and accuracy: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126344-8dd635e5-443b-439e-bd3a-4a6c80095504.png)
+4. There is an output of the model’s loss and accuracy: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126796-7064a3ef-e728-485e-89e6-3700e444e2ec.png)
 
-5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126369-c272585e-cfec-4d08-affa-67dde424c6be.png)
+5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126772-872edd64-e020-4d3d-b5c1-34c87d8097c8.png)
 
 6. The results are saved to an [HDF5]() file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
 
