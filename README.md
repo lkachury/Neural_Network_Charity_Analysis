@@ -58,7 +58,7 @@ The neural network model using Tensorflow Keras contains working code that perfo
 
 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126772-872edd64-e020-4d3d-b5c1-34c87d8097c8.png)
 
-6. The results are saved to an [HDF5]() file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
+6. The results are saved to an [HDF5](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5) file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
 
 ### Deliverable 3: Optimize the Model 
 Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so.
