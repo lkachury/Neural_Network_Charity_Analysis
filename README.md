@@ -44,12 +44,10 @@ The following preprocessing steps have been performed:
 
 6. The numerical values have been standardized using the `StandardScaler()` module: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088084-64e82cd0-6f93-4d59-832a-294e8641051d.png)
 
-- **Data Preprocessing Results**
-        - What variable(s) are considered the target(s) for your model? <br /> **IS_SUCCESSFUL**—Was the money used effectively
-        
-        - What variable(s) are considered to be the features for your model? <br /> **APPLICATION**_TYPE—Alphabet Soup application type <br /> **AFFILIATION**—Affiliated sector of industry <br /> **CLASSIFICATION**—Government organization classification <br /> **USE_CASE**—Use case for funding <br /> **ORGANIZATION**—Organization type <br /> **STATUS**—Active status <br /> **INCOME_AMT**—Income classification <br /> **SPECIAL_CONSIDERATIONS**—Special consideration for application <br /> **ASK_AMT**—Funding amount requested
-        
-        - What variable(s) are neither targets nor features, and should be removed from the input data? <br /> **EIN** and **NAME**—Identification columns
+#### **Data Preprocessing Results**
+- What variable(s) are considered the target(s) for your model? <br /> **IS_SUCCESSFUL**—Was the money used effectively
+- What variable(s) are considered to be the features for your model? <br /> **APPLICATION**_TYPE—Alphabet Soup application type <br /> **AFFILIATION**—Affiliated sector of industry <br /> **CLASSIFICATION**—Government organization classification <br /> **USE_CASE**—Use case for funding <br /> **ORGANIZATION**—Organization type <br /> **STATUS**—Active status <br /> **INCOME_AMT**—Income classification <br /> **SPECIAL_CONSIDERATIONS**—Special consideration for application <br /> **ASK_AMT**—Funding amount requested
+- What variable(s) are neither targets nor features, and should be removed from the input data? <br /> **EIN** and **NAME**—Identification columns
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model 
 Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb).
