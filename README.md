@@ -44,6 +44,19 @@ The following preprocessing steps have been performed:
 
 6. The numerical values have been standardized using the `StandardScaler()` module: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088084-64e82cd0-6f93-4d59-832a-294e8641051d.png)
 
+1. Data Preprocessing Results
+    - What variable(s) are considered the target(s) for your model? <br /> **IS_SUCCESSFUL**—Was the money used effectively
+    - What variable(s) are considered to be the features for your model? <br /> **APPLICATION**_TYPE—Alphabet Soup application type
+**AFFILIATION**—Affiliated sector of industry
+**CLASSIFICATION**—Government organization classification
+**USE_CASE**—Use case for funding
+**ORGANIZATION**—Organization type
+**STATUS**—Active status
+**INCOME_AMT**—Income classification
+**SPECIAL_CONSIDERATIONS**—Special consideration for application
+**ASK_AMT**—Funding amount requested
+    - What variable(s) are neither targets nor features, and should be removed from the input data? <br /> - **EIN** and **NAME**—Identification columns
+
 ### Deliverable 2: Compile, Train, and Evaluate the Model 
 Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb).
 
@@ -98,16 +111,19 @@ The model accuracy of this attempt: <br /> ![image](https://user-images.githubus
 
 
 ## Summary
-Overview of the analysis: Explain the purpose of this analysis.
+The purpose of this analysis was to utilize machine learning and neural networks to help the Alphabet Soup’s business team predict where to make successful investments based on data from previously funded organizations. 
 
-Results: Using bulleted lists and images to support your answers, address the following questions.
 
-1. Data Preprocessing
-    - What variable(s) are considered the target(s) for your model?
-    - What variable(s) are considered to be the features for your model?
-    - What variable(s) are neither targets nor features, and should be removed from the input data?
 
-2. Compiling, Training, and Evaluating the Model
+
+
+- 
+
+
+
+
+
+2. Compiling, Training, and Evaluating the Model Results
     - How many neurons, layers, and activation functions did you select for your neural network model, and why?
     - Were you able to achieve the target model performance?
     - What steps did you take to try and increase model performance?
