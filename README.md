@@ -70,7 +70,7 @@ The neural network model using Tensorflow Keras contains working code that perfo
 - **Were you able to achieve the target model performance?** <br /> The model's accuracy was 72.7%, so it did not achieve the target model performance of 75%.
 
 ### Deliverable 3: Optimize the Model 
-Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so. The completed AlphabetSoupCharity_Optimization Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb).
+Using TensorFlow, the model will be optimized in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so. The completed AlphabetSoupCharity_Optimization Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb).
 
 The model was not succesfully optimized as the predictive accuracy did not increase to over 75%. Three attempts were made to increase model performance using the following steps:
 
