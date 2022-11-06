@@ -29,7 +29,7 @@ The features in the provided dataset will be used to help create a binary classi
 
 ## Results
 ### Deliverable 1: Preprocessing Data for a Neural Network Model
-Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here]().
+Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb).
 
 The following preprocessing steps have been performed:
 1. The `EIN` and `NAME` columns have been dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/200087693-28fecd68-aaff-475d-a557-d52f966d6ff5.png)
@@ -45,7 +45,7 @@ The following preprocessing steps have been performed:
 6. The numerical values have been standardized using the `StandardScaler()` module: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088084-64e82cd0-6f93-4d59-832a-294e8641051d.png)
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model 
-Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
+Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb).
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
 1. The number of layers, the number of neurons per layer, and activation function are defined: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126533-f9bc7393-83a3-4584-825e-8aec465a0eca.png)  
