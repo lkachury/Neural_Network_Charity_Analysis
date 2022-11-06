@@ -72,23 +72,29 @@ The model is optimized, and the predictive accuracy is increased to over 75%, or
         < br /> 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188897-160965dc-1fe3-45af-a14e-b019caf1e48d.png)
         <br /> 6. The results are saved to an HDF5 file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188956-5522e984-1a84-483a-b26e-9d9707e631ea.png)
 
-The accuracy of the model: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189013-128ec6ee-deee-4b57-a5f3-7a4d4678ba75.png)
+The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189013-128ec6ee-deee-4b57-a5f3-7a4d4678ba75.png)
 
 - Attempt #2: 
-        1. 
+        <br /> 1. Noisy variables are removed from features: <br /> Same as Attempt #1
+        <br /> 2. and 3. Additional hidden layers are added and additional neurons are added to hidden layers: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189843-6a0e3905-2648-4fcf-aaa7-fc8669d93cb1.png)
+        <br /> 4. The activation function of hidden layers or output layers is changed for optimization: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189865-cda3354c-9d6a-4d98-b0b3-99df10a56c94.png)
+        < br /> 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189904-5ff5da98-132f-43ae-b20a-3e3b8f9eedfd.png)
+        <br /> 6. The results are saved to an HDF5 file: <br /> Same as Attempt #1
 
+The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189925-e539f668-9f4c-4ade-823b-2e5632c11840.png)
+ 
+- Attempt #3: 
+        <br /> 1. Noisy variables are removed from features: <br /> Same as Attempt #1
+        <br /> 2. and 3. Additional hidden layers are added and additional neurons are added to hidden layers: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189976-c1898023-c7fd-4a81-805c-bdb0e5b9f466.png)
+        <br /> 4. The activation function of hidden layers or output layers is changed for optimization: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189997-c860fac8-2dd9-42ea-9467-3f31ee13111c.png)
+        < br /> 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200190019-18aac33f-f181-422e-bccd-53ae07631ef8.png)
+        <br /> 6. The results are saved to an HDF5 file: <br /> Same as Attempt #1
 
-1. Noisy variables are removed from features:
+The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200190033-c46bd159-4b2b-4778-9fa6-a343f97b181e.png)
 
-2. Additional neurons are added to hidden layers:
-
-3. Additional hidden layers are added:
-
-4. The activation function of hidden layers or output layers is changed for optimization:
-
-5. The model's weights are saved every 5 epochs:
-
-6. The results are saved to an HDF5 file:
+ 
+        
+               
 
 
 ## Summary
