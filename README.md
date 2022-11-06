@@ -64,6 +64,20 @@ The neural network model using Tensorflow Keras contains working code that perfo
 Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so.
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
+
+- Attempt #1: 
+        1. Noisy variables are removed from features: <br /> ![image](https://user-images.githubusercontent.com/108038989/200187894-ab32cb3f-a23e-46e9-9526-9264c2ba1cb5.png)
+        2. and 3. Additional hidden layers are added and additional neurons are added to hidden layers: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188621-b64fe3af-d7de-4a62-9fa0-e3b8ff3afe1e.png)
+        4. The activation function of hidden layers or output layers is changed for optimization: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188744-97b207d2-a996-4453-ba29-4b48ab762492.png)
+        5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188897-160965dc-1fe3-45af-a14e-b019caf1e48d.png)
+        6. The results are saved to an HDF5 file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188956-5522e984-1a84-483a-b26e-9d9707e631ea.png)
+
+The accuracy of the model: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189013-128ec6ee-deee-4b57-a5f3-7a4d4678ba75.png)
+
+- Attempt #2: 
+        1. 
+
+
 1. Noisy variables are removed from features:
 
 2. Additional neurons are added to hidden layers:
