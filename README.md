@@ -29,7 +29,7 @@ The features in the provided dataset will be used to help create a binary classi
 
 ## Results
 ### Deliverable 1: Preprocessing Data for a Neural Network Model
-Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here]().
+Using Pandas and Scikit-Learn’s `StandardScaler()`, the dataset will be preprocessed in order to compile, train, and evaluate the neural network model later in Deliverable 2. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb).
 
 The following preprocessing steps have been performed:
 1. The `EIN` and `NAME` columns have been dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/200087693-28fecd68-aaff-475d-a557-d52f966d6ff5.png)
@@ -45,7 +45,7 @@ The following preprocessing steps have been performed:
 6. The numerical values have been standardized using the `StandardScaler()` module: <br /> ![image](https://user-images.githubusercontent.com/108038989/200088084-64e82cd0-6f93-4d59-832a-294e8641051d.png)
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model 
-Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy.
+Using TensorFlow, a neural network, or deep learning model, will be designed to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. We’ll need to think about how many inputs there are before determining the number of neurons and layers in the model. Once this step is completed, we’ll compile, train, and evaluate the binary classification model to calculate the model’s loss and accuracy. The completed AlphabetSoupCharity Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb).
 
 The neural network model using Tensorflow Keras contains working code that performs the following steps:
 1. The number of layers, the number of neurons per layer, and activation function are defined: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126533-f9bc7393-83a3-4584-825e-8aec465a0eca.png)  
@@ -58,23 +58,43 @@ The neural network model using Tensorflow Keras contains working code that perfo
 
 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126772-872edd64-e020-4d3d-b5c1-34c87d8097c8.png)
 
-6. The results are saved to an [HDF5]() file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
+6. The results are saved to an [HDF5](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5) file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
 
 ### Deliverable 3: Optimize the Model 
 Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so.
 
 The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
-1. Noisy variables are removed from features:
 
-2. Additional neurons are added to hidden layers:
+- Attempt #1: 
+        <br /> 1. Noisy variables are removed from features: <br /> ![image](https://user-images.githubusercontent.com/108038989/200187894-ab32cb3f-a23e-46e9-9526-9264c2ba1cb5.png)
+        <br /> 2. and 3. Additional hidden layers are added and additional neurons are added to hidden layers: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188621-b64fe3af-d7de-4a62-9fa0-e3b8ff3afe1e.png)
+        <br /> 4. The activation function of hidden layers or output layers is changed for optimization: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188744-97b207d2-a996-4453-ba29-4b48ab762492.png)
+        <br /> 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188897-160965dc-1fe3-45af-a14e-b019caf1e48d.png)
+        <br /> 6. The results are saved to an HDF5 file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200188956-5522e984-1a84-483a-b26e-9d9707e631ea.png)
 
-3. Additional hidden layers are added:
+The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189013-128ec6ee-deee-4b57-a5f3-7a4d4678ba75.png)
 
-4. The activation function of hidden layers or output layers is changed for optimization:
+- Attempt #2: 
+        <br /> 1. Noisy variables are removed from features: Same as Attempt #1
+        <br /> 2. and 3. Additional hidden layers are added and additional neurons are added to hidden layers: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189843-6a0e3905-2648-4fcf-aaa7-fc8669d93cb1.png)
+        <br /> 4. The activation function of hidden layers or output layers is changed for optimization: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189865-cda3354c-9d6a-4d98-b0b3-99df10a56c94.png)
+        <br /> 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189904-5ff5da98-132f-43ae-b20a-3e3b8f9eedfd.png)
+        <br /> 6. The results are saved to an HDF5 file: Same as Attempt #1
 
-5. The model's weights are saved every 5 epochs:
+The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189925-e539f668-9f4c-4ade-823b-2e5632c11840.png)
+ 
+- Attempt #3: 
+        <br /> 1. Noisy variables are removed from features: Same as Attempt #1
+        <br /> 2. and 3. Additional hidden layers are added and additional neurons are added to hidden layers: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189976-c1898023-c7fd-4a81-805c-bdb0e5b9f466.png)
+        <br /> 4. The activation function of hidden layers or output layers is changed for optimization: <br /> ![image](https://user-images.githubusercontent.com/108038989/200189997-c860fac8-2dd9-42ea-9467-3f31ee13111c.png)
+        <br /> 5. The model's weights are saved every 5 epochs: <br /> ![image](https://user-images.githubusercontent.com/108038989/200190019-18aac33f-f181-422e-bccd-53ae07631ef8.png)
+        <br /> 6. The results are saved to an HDF5 file: Same as Attempt #1
 
-6. The results are saved to an HDF5 file:
+The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200190033-c46bd159-4b2b-4778-9fa6-a343f97b181e.png)
+
+ 
+        
+               
 
 
 ## Summary
