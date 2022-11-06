@@ -100,16 +100,8 @@ The model accuracy of this attempt: <br /> ![image](https://user-images.githubus
         <br /> 6. The results are saved to an [HDF5](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.h5) file: Same as Attempt #1
 
 The model accuracy of this attempt: <br /> ![image](https://user-images.githubusercontent.com/108038989/200190033-c46bd159-4b2b-4778-9fa6-a343f97b181e.png)
-
  
-        
-               
-
-
 ## Summary
-The purpose of this analysis was to utilize machine learning and neural networks to help the Alphabet Soup’s business team predict where to make successful investments based on data from previously funded organizations. 
+The purpose of this analysis was to utilize machine learning and neural networks to help the Alphabet Soup’s business team predict where to make successful investments based on data from previously funded organizations. The initial model accuracy was 72.7%, which failed to achieve the target model performance of 75%. Three addiitonal attempts were made to optimize the model in order to achieve a target predictive accuracy higher than 75%, but these attempts yielded model accuracies of 72.6%, 72.7% and 72.5%. From these results, we can conclude that further optimization of the model would not yield increased accuracy and to continue to increase the number of layers and neurons could lead to overfitting. 
 
-
-Summary: Summarize the overall results of the deep learning model. 
-Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-There is a recommendation on using a different model to solve the classification problem, and justification
+The use of a different model, such as Random Forest, could help solve the classification problem. Random forest models are similar to neural network models but they use decision trees and combine their multiple smaller outputs to make a more robust and accurate final classification (or regression) decision. Random forest classifier are able to train on large datasets and achieve comparable predictive accuracy values in faster and with less code, while the other model required a more time to train on the data points. 
