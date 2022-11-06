@@ -66,10 +66,8 @@ The neural network model using Tensorflow Keras contains working code that perfo
 6. The results are saved to an [HDF5](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5) file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
 
 #### **Compiling, Training, and Evaluating the Model Results**
-- **How many neurons, layers, and activation functions did you select for your neural network model, and why?** <br /> 
-
-- **Were you able to achieve the target model performance?** <br /> 
-
+- **How many neurons, layers, and activation functions did you select for your neural network model, and why?** <br /> The neural network model in this deliverable consisted of two layers, the first with 80 neurons ans the second with 30 neurons. The two layers used the "relu" activation function and the output layer used the "sigmoid" activation feature.
+- **Were you able to achieve the target model performance?** <br /> The model's accuracy was 72.7%, so it did not achieve the target model performance of 75%.
 
 ### Deliverable 3: Optimize the Model 
 Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so. The completed AlphabetSoupCharity_Optimization Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb).
