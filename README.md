@@ -65,10 +65,16 @@ The neural network model using Tensorflow Keras contains working code that perfo
 
 6. The results are saved to an [HDF5](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5) file: <br /> ![image](https://user-images.githubusercontent.com/108038989/200126396-a420a5d2-c97f-4109-b8b4-873b91f95f51.png)
 
+#### **Compiling, Training, and Evaluating the Model Results**
+- **How many neurons, layers, and activation functions did you select for your neural network model, and why?** <br /> 
+
+- **Were you able to achieve the target model performance?** <br /> 
+
+
 ### Deliverable 3: Optimize the Model 
 Using TensorFlow, the model will be optimize in order to achieve a target predictive accuracy higher than 75%. If we can't achieve an accuracy higher than 75%, then we'll need to make at least three attempts to do so. The completed AlphabetSoupCharity_Optimization Jupyter Notebook can be referenced [here](https://github.com/lkachury/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb).
 
-The model is optimized, and the predictive accuracy is increased to over 75%, or there is working code that makes three attempts to increase model performance using the following steps:
+The model was not succesfully optimized as the predictive accuracy did not increase to over 75%. Three attempts were made to increase model performance using the following steps:
 
 - Attempt #1: 
         <br /> 1. Noisy variables are removed from features: <br /> ![image](https://user-images.githubusercontent.com/108038989/200187894-ab32cb3f-a23e-46e9-9526-9264c2ba1cb5.png)
@@ -105,20 +111,6 @@ The model accuracy of this attempt: <br /> ![image](https://user-images.githubus
 ## Summary
 The purpose of this analysis was to utilize machine learning and neural networks to help the Alphabet Soup’s business team predict where to make successful investments based on data from previously funded organizations. 
 
-
-
-
-
-- 
-
-
-
-
-
-2. Compiling, Training, and Evaluating the Model Results
-    - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    - Were you able to achieve the target model performance?
-    - What steps did you take to try and increase model performance?
 
 Summary: Summarize the overall results of the deep learning model. 
 Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
